@@ -5,7 +5,7 @@ flourMin = 100
 
 eggsAmount = int(input("How many eggs do you have?"))
 milkAmount = int(input("How much milk do you have, in mililitres?"))
-flourAmount = int(input("How much flour do you have, in grams?"))
+flourAmount = int(input("How much flour do you have in grams?"))
 
 if eggsAmount < eggsMin or milkAmount < milkMin or eggsAmount < eggsMin:
     print("No blins for you")
